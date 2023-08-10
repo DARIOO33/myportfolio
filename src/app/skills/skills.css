@@ -1,0 +1,30 @@
+.cards-container{
+    display: grid;
+    gap: 2rem;
+    text-align: center;
+    grid-template-columns: repeat(3,1fr);
+    height: auto;
+    margin-top: 6rem;
+    /* border: 1px solid red; */
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.details{
+    margin-top: 1.5rem;
+}
+
+
+@media screen and (max-width:900px) {
+    .cards-container{
+        text-align: center;
+        /* margin: auto; */
+        
+        grid-template-columns: repeat(1,1fr);
+    }
+   
+   
+   
+    
+    
+}
